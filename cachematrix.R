@@ -16,7 +16,7 @@ getinverse <- function () j
 
 list(set = set, get = get,
         setinverse = setinverse,
-        getinverse = getinverse
+        getinverse = getinverse)
 
 ## returns inverse of x
 
@@ -32,4 +32,4 @@ if(!is.null(j)){
         j <- solve(data, ...)
         x$setinverse(j)
         j
-}
+
